@@ -11,7 +11,7 @@ class App extends Component {
     }
   }
 
-  changeWelcome(){
+  changeWelcome(welcome){
     this.state({welcome})
   }
 
