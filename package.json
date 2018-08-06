@@ -10,7 +10,11 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "test": "react-scripts test --env=jsdom --coverage",
+    "eject": "react-scripts eject",
+    "cov": "codecov --token='27b9e4f0-1e44-45c3-a875-d98d68eed6e8'"
+  },
+  "devDependencies": {
+    "codecov": "^3.0.4"
   }
 }
